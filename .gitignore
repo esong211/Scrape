@@ -1,0 +1,5 @@
+Scrapper/*.idea
+*.nyc_output
+Scrapper/src/main/javascript/coverage
+Scrapper/src/main/javascript/node_modules
+

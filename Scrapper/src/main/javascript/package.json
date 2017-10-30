@@ -1,0 +1,26 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "Scrape",
+  "main": "Scrape.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc --reporter=html --reporter=text mocha",
+    "start": "node Scrape.js",
+    "example": "node Graph.js"
+  },
+  "author": "Eric Song",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "latest",
+    "handlebars": "latest",
+    "log4js": "^2.3.4",
+    "path": "latest",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "nyc": "^11.2.1"
+  }
+}
